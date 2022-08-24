@@ -1,0 +1,45 @@
+:root {
+  --color-blue-primary: #1f2937;
+  --color-blue-secondary: #273549;
+  --color-blue-tertiary: #2f3e53;
+  --color-green-primary: #10b981;
+  --color-green-secondary: #4adf86;
+  --color-medium-grey: #6a6c6e;
+  --color-white: #ffffff;
+
+  --ff-inter: "Inter", sans-serif;
+  --ff-karla: "Karla", sans-serif;
+
+  --fs-40: 2.5rem;
+  --fs-20: 1.25rem;
+  --fs-16: 1rem;
+
+  --fw-40: 800;
+  --fw-20: 400;
+  --fw-16: 500;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
