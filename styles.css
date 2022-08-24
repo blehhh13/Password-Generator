@@ -78,7 +78,7 @@ body {
 .button {
   font-size: var(--fs-16);
   font-weight: var(--fw-16);
-  padding: 0.45em;
+  padding: 0.45em 0.65em;
   margin: 0.5em 0 1.3em;
 
   background-color: var(--color-green-primary);
