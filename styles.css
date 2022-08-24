@@ -43,6 +43,7 @@ body {
   text-rendering: optimizeSpeed;
   line-height: 1.5;
   background-color: var(--color-blue-primary);
+  overflow: hidden;
 }
 
 .container {
@@ -101,7 +102,7 @@ body {
 .password-2 {
   min-height: 39px;
   width: 100%;
-  padding-top: 6px;
+  padding-top: 0.5em;
 
   font-size: var(--fs-16);
   font-weight: var(--fw-16);
@@ -110,4 +111,13 @@ body {
   background: var(--color-blue-secondary);
   color: var(--color-green-tertiary);
   border-radius: 5px;
+}
+
+@media (max-width: 450px) {
+  .password-1,
+  .password-2 {
+    font-size: 0.8rem;
+    padding-top: 0.8em;
+    font-weight: var(--fw-16);
+  }
 }
